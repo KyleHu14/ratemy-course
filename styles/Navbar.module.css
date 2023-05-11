@@ -1,0 +1,72 @@
+.navbar {
+	display: flex;
+	border: 1px solid green;
+}
+
+/* [LEFT SIDE OF NAVBAR] */
+.navLeft {
+	/* Flex / Arranging */
+	display: flex;
+	align-items: center;
+
+	/* Padding */
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.navTitle {
+	/* Font Adjustments */
+	font-size: 50px;
+	font-weight: bold;
+	/* Coloring */
+	color: #005dab;
+	/* Outline */
+	border: 1px solid black;
+
+	/* Margins */
+	margin-left: 1rem;
+
+	text-decoration: none;
+}
+
+/* [RIGHT SIDE OF NAVBAR] */
+.navRightLinks {
+	/* Flex */
+	display: flex;
+	flex: 1;
+	/* Vertically Align to Center */
+	align-items: center;
+	justify-content: space-between;
+
+	/* Border */
+	border: 1px solid red;
+
+	color: #1f2e3a;
+
+	/* Font Size */
+	font-size: 20px;
+
+	/* Margins */
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+.navLink {
+	text-decoration: none;
+
+	/* Coloring */
+	color: #1f2e3a;
+}
+
+/* [RIGHT MOST SIDE OF NAVBAR (ACCOUNT ICON)] */
+.accountIcon {
+	/* Flex / Positioning */
+	display: flex;
+	align-items: center;
+
+	/* Margins */
+	margin-right: 5rem;
+
+	/* Make it so this icon is clickable */
+	cursor: pointer;
+}

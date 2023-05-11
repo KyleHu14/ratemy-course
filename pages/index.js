@@ -3,24 +3,15 @@ import { useEffect, useState } from "react";
 
 // Nextjs
 import Head from "next/head";
+import Link from "next/link";
 
 // CSS
 import styles from "@/styles/Home.module.css";
 
-// Supabase
-import getReviews from "@/supabase/supabaseQueries";
+// Components
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
-	const [reviews, setReviews] = useState([]);
-
-	useEffect(() => {
-		const loadReviews = async () => {
-			const reviews = await getReviews();
-			setReviews(reviews);
-		};
-		loadReviews();
-	}, []);
-
 	return (
 		<>
 			<Head>
@@ -36,28 +27,32 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<>
-					<h1>Create a review</h1>
-					<p>Course Code</p>
-					<input></input>
-					<p>Rating</p>
-					<input></input>
-					<p>Comments</p>
-					<input></input>
-					<button>Post Review</button>
-				</>
-				<>
-					<h1>Reviews</h1>
-					{reviews.map((review, key) => {
-						return (
-							<div key={review.id}>
-								<div>Course Code : {review.course_code}</div>
-								<div>Rating : {review.rating}</div>
-								<div>Comments : {review.comments}</div>
-							</div>
-						);
-					})}
-				</>
+				<Navbar />
+				<div className={styles.mainBody}>
+					<h1 className={styles.homepageTitle}>
+						View Peer Ratings, Search for a Course!
+					</h1>
+					<div className={styles.searchContainer}>
+						<input
+							className={styles.searchBar}
+							type="text"
+							placeholder="Search Course Name"
+						/>
+					</div>
+
+					<div>
+						<div className={styles.subSection}>
+							<h1 className={styles.homepageTitle}>
+								Top Rated Courses at UC Irvine
+							</h1>
+						</div>
+						<div className={styles.subSection}>
+							<h1 className={styles.homepageTitle}>
+								Anteaters With Your Major Recommend...
+							</h1>
+						</div>
+					</div>
+				</div>
 			</main>
 		</>
 	);

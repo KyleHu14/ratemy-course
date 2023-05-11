@@ -1,0 +1,31 @@
+.searchContainer {
+	text-align: center;
+}
+
+.searchBar {
+	border-radius: 8px;
+	font-size: 20px;
+	border: 0.5px solid black;
+	padding: 10px;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+		0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.subSection {
+	margin-top: 5rem;
+	margin-left: 2rem;
+	border: 1px solid red;
+}
+.homepageTitle {
+	/* Coloring */
+	color: #005dab;
+
+	/* Bold */
+	font-weight: 400;
+
+	/* Margins */
+	/* margin-top: 4rem; */
+
+	/* Positioning */
+	text-align: center;
+}
