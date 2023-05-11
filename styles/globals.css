@@ -1,4 +1,10 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap");
+
 body {
 	background-color: white;
 	margin: 0;
+
+	font-family: "Roboto Slab", serif;
+	/* font-family: "Ubuntu", sans-serif; */
 }
