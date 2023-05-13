@@ -1,9 +1,9 @@
 // Next Imports
 import Link from "next/link";
+import Image from "next/image";
 
 // CSS
 import styles from "../styles/Navbar.module.css";
-import Image from "next/image";
 
 const Navbar = () => {
 	return (

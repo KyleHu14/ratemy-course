@@ -28,10 +28,10 @@ export default function Home() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className={styles.main}>
+			<main>
 				<Navbar />
 				{/* Home Page Body */}
-				<div className={styles.mainBody}>
+				<div>
 					{/* Search Section */}
 					<div className={styles.searchSection}>
 						<HomePageTitle titleText="View Peer Ratings, Search for a Course!" />
