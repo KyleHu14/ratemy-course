@@ -52,7 +52,7 @@ export default function Home() {
 					</div>
 
 					{/* Sub Section */}
-					<div>
+					<div className = {styles.subsections}>
 						<HomeSubSection subSectionTitleText="Top Rated Courses at UC Irvine" />
 						<HomeSubSection subSectionTitleText="Anteaters With Your Major Recommend..." />
 					</div>

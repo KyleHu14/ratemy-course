@@ -42,6 +42,13 @@
 	flex-direction: column;
 }
 
+.subsections {
+	background-image: url(../public/greenbackground.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
 /* .homepageTitle { */
 /* Coloring */
 /* color: #005dab; */
