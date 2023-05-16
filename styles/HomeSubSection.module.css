@@ -1,9 +1,10 @@
 .subSection {
 	margin-top: 5rem;
+	margin-left: 7rem;
 	padding-left: 5rem;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
-.subTitleContainer {
+.titleContainer {
 	text-align: left;
 }

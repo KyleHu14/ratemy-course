@@ -31,7 +31,7 @@ export default function Home() {
 			<main>
 				<Navbar />
 				{/* Home Page Body */}
-				<div>
+				<div className={styles.mainBody}>
 					{/* Search Section */}
 					<div className={styles.searchSection}>
 						<HomePageTitle titleText="View Peer Ratings, Search for a Course!" />
@@ -52,7 +52,7 @@ export default function Home() {
 					</div>
 
 					{/* Sub Section */}
-					<div className = {styles.subsections}>
+					<div className={styles.subsections}>
 						<HomeSubSection subSectionTitleText="Top Rated Courses at UC Irvine" />
 						<HomeSubSection subSectionTitleText="Anteaters With Your Major Recommend..." />
 					</div>
