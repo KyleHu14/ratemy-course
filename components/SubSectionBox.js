@@ -1,5 +1,5 @@
 // CSS
-import styles from "../styles/SubSectionBox.module.css";
+import styles from "../styles/components/SubSectionBox.module.css";
 
 const SubSectionBox = ({
 	courseCode,

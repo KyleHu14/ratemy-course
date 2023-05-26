@@ -2,10 +2,10 @@
 import { useEffect, useState } from "react";
 // Nextjs
 import Head from "next/head";
-import Link from "next/link";
+import { useRouter } from "next/router";
 
 // CSS
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/pages/Home.module.css";
 
 // Components
 import Navbar from "@/components/Navbar";
@@ -14,6 +14,8 @@ import HomeSubSection from "@/components/HomeSubSection";
 import Image from "next/image";
 
 export default function Home() {
+	const router = useRouter();
+
 	return (
 		<>
 			<Head>
@@ -35,7 +37,12 @@ export default function Home() {
 					{/* Search Section */}
 					<div className={styles.searchSection}>
 						<HomePageTitle titleText="View Peer Ratings, Search for a Course!" />
-						<form className={styles.searchBar}>
+						<form
+							className={styles.searchBar}
+							onSubmit={(e) => {
+								e.preventDefault(); // Prevents the default form submission behavior
+								router.push(`/course/inf134`);
+							}}>
 							<Image
 								src="/search-icon.png"
 								width={20}

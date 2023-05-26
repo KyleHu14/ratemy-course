@@ -51,13 +51,13 @@
 }
 
 .mainBody {
-	background-image: url(../public/greenbackground.png);
+	background-image: url(../../public/greenbackground.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 
 	height: 100vh;
-	margin-top: 2rem;
+	/* margin-top: 2rem; */
 }
 
 /* .homepageTitle { */

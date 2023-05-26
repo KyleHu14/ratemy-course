@@ -2,10 +2,12 @@
 	display: flex;
 
 	/* Fix the navbar */
-	position: fixed;
+	/* position: fixed;
 	top: 0;
+	width: 100%; */
+
 	background-color: white;
-	width: 100%;
+	
 	/* border for debugging */
 	/* border: 1px solid green; */
 }
