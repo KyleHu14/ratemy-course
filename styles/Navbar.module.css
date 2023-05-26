@@ -1,6 +1,11 @@
 .navbar {
 	display: flex;
 
+	/* Fix the navbar */
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
 	/* border for debugging */
 	/* border: 1px solid green; */
 }
