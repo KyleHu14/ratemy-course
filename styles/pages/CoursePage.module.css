@@ -53,8 +53,51 @@
 	justify-content: space-between;
 
 	/* padding */
-	padding: 0.5rem 2rem;
+	padding: 1rem 3rem;
+
+	margin-top: 1rem;
 
 	/* Font Size */
 	font-size: 27px;
+}
+
+.rateButton{
+	background-color: #0F90C7;
+	border : none;
+	border-radius: 10px;
+	padding: 0.5rem 3rem;
+	font-size: 15px;
+	
+	/* Shadow */
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.courseDesc{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.descLeft{
+	width: 700px;
+	margin-left: 5rem;
+}
+
+.courseDescTitle{
+	color: #005DAB;
+	font-size: 25px;
+	border-bottom: 1px solid grey;
+}
+
+.descText{
+	margin-top: 1rem;
+
+	padding-right: 3rem;
+	padding-left: 2rem;
+
+	line-height: 1.5;
+}
+
+.descImg{
+	margin-right: 10rem;
 }

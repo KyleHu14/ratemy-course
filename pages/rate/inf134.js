@@ -2,7 +2,7 @@ import React from 'react'
 
 const inf134 = () => {
   return (
-    <div>inf134</div>
+    <div>rate inf134</div>
   )
 }
 
