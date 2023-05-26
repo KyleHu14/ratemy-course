@@ -46,3 +46,15 @@
 	color: #666666;
 	font-weight: 500;
 }
+
+.courseTitle{
+	/* Flexbox */
+	display: flex;
+	justify-content: space-between;
+
+	/* padding */
+	padding: 0.5rem 2rem;
+
+	/* Font Size */
+	font-size: 27px;
+}

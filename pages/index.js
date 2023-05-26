@@ -56,6 +56,7 @@ export default function Home() {
 							/>
 							<button type="submit" hidden />
 						</form>
+						
 					</div>
 
 					{/* Sub Section */}

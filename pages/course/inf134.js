@@ -9,6 +9,7 @@ const inf134 = () => {
 		<>
 			<Navbar />
 			<div className={styles.courseBody}>
+				{/* The Search Section of the Course Page */}
 				<form className={styles.searchSection}>
 					<div className={styles.searchSectionTitle}>
 						<div>Search</div> <div>Course</div>
@@ -25,6 +26,16 @@ const inf134 = () => {
 					/>
 					<button type="submit" hidden />
 				</form>
+                
+                {/* Title Section */}
+				<div className={styles.courseSection}>
+					<div className={styles.courseTitle}>
+						<div>
+							In4matx 134 - Project in User Interaction Software
+						</div>
+                        <button>Rate This Course</button>
+					</div>
+				</div>
 			</div>
 		</>
 	);
