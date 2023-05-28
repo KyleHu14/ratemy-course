@@ -83,7 +83,7 @@
 	margin-left: 5rem;
 }
 
-.courseDescTitle{
+.coursePageTitle{
 	color: #005DAB;
 	font-size: 25px;
 	border-bottom: 1px solid grey;
@@ -100,4 +100,28 @@
 
 .descImg{
 	margin-right: 10rem;
+}
+
+.reviewStats{
+	
+}
+
+.reviewImages{
+	display:flex;
+	justify-content: center;
+	column-gap: 8rem;
+	margin-top: 2rem
+}
+
+.reviewStatsTitle{
+	margin-left: 5rem;
+	margin-right: 6rem;
+
+}
+
+.graphDist{
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+	column-gap: 5rem;
 }

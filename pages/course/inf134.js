@@ -44,7 +44,7 @@ const inf134 = () => {
 					{/* Description Section */}
 					<div className={styles.courseDesc}>
 						<div className={styles.descLeft}>
-							<div className={styles.courseDescTitle}>
+							<div className={styles.coursePageTitle}>
 								Course Description
 							</div>
 							<div className={styles.descText}>
@@ -68,14 +68,50 @@ const inf134 = () => {
 					</div>
 					{/* "Based on 42 Ratings Section" */}
 					<div className={styles.reviewStats}>
-						<Image
-							src="/course-page/avg-ratings.png"
-							width={133}
-							height={61.73}
-							alt="Average Ratings for This Course"
-						/>
+						<div className={`${styles.coursePageTitle} ${styles.reviewStatsTitle}`}>
+							Based on 42 Ratings
+						</div>
+						<div className={styles.reviewImages}>
+							<Image
+								src="/course-page/avg-ratings.png"
+								width={133}
+								height={61.73}
+								alt="Average Ratings for This Course"
+							/>
+							<Image
+								src="/course-page/rec-percent.png"
+								width={140}
+								height={68}
+								alt="Recommendation percentage"
+							/>
+							<Image
+								src="/course-page/avg-hrs-spent.png"
+								width={140}
+								height={85}
+								alt="Average hours spent on course"
+							/>
+							<Image
+								src="/course-page/popular-tags.png"
+								width={398}
+								height={101}
+								alt="Average hours spent on course"
+							/>
+						</div>
+						<div className={styles.graphDist}>
+							<Image
+								src="/course-page/useful-rating-dist.png"
+								width={423}
+								height={287}
+								alt="Average hours spent on course"
+							/>
+							<Image
+								src="/course-page/diff-rating-dist.png"
+								width={423}
+								height={287}
+								alt="Average hours spent on course"
+							/>
+						</div>
 					</div>
-
 				</div>
 			</div>
 		</>
