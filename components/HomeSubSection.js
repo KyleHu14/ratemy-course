@@ -17,27 +17,29 @@ const HomeSubSection = ({ subSectionTitleText }) => {
 			<div className={styles.titleContainer}>
 				<HomePageTitle titleText={subSectionTitleText} />
 			</div>
-			<SubSectionBox
-				courseCode={tempCode}
-				courseName={tempName}
-				usefulRating={usefulRating}
-				diffRating={diffRating}
-				totalRatings={totalRatings}
-			/>
-			<SubSectionBox
-				courseCode={tempCode}
-				courseName={tempName}
-				usefulRating={usefulRating}
-				diffRating={diffRating}
-				totalRatings={totalRatings}
-			/>
-			<SubSectionBox
-				courseCode={tempCode}
-				courseName={tempName}
-				usefulRating={usefulRating}
-				diffRating={diffRating}
-				totalRatings={totalRatings}
-			/>
+			<div>
+				<SubSectionBox
+					courseCode={tempCode}
+					courseName={tempName}
+					usefulRating={usefulRating}
+					diffRating={diffRating}
+					totalRatings={totalRatings}
+				/>
+				<SubSectionBox
+					courseCode={tempCode}
+					courseName={tempName}
+					usefulRating={usefulRating}
+					diffRating={diffRating}
+					totalRatings={totalRatings}
+				/>
+				<SubSectionBox
+					courseCode={tempCode}
+					courseName={tempName}
+					usefulRating={usefulRating}
+					diffRating={diffRating}
+					totalRatings={totalRatings}
+				/>
+			</div>
 		</div>
 	);
 };

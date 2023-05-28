@@ -59,13 +59,23 @@ const inf134 = () => {
 						</div>
 						<div className={styles.descImg}>
 							<Image
-								src="/avg-course-dist.png"
+								src="/course-page/avg-course-dist.png"
 								width={423}
 								height={288}
 								alt="Average Course Distribution Graph"
 							/>
 						</div>
 					</div>
+					{/* "Based on 42 Ratings Section" */}
+					<div className={styles.reviewStats}>
+						<Image
+							src="/course-page/avg-ratings.png"
+							width={133}
+							height={61.73}
+							alt="Average Ratings for This Course"
+						/>
+					</div>
+
 				</div>
 			</div>
 		</>
