@@ -26,11 +26,7 @@ const RatingBox = ({
 					<div>{diffRating} Difficulty</div>
 				</div>
 				<div>
-					Great professor and course. Projects are fun and fairly
-					easy, unless you're a perfectionist and rewrite your code
-					base too many times. Generous grading and late policies. You
-					learn a lot of stuff that industry employers are looking
-					for, so it's a valuable course.
+					{"Great professor and course. Projects are fun and fairly easy, unless you're a perfectionist and rewrite your code base too many times. Generous grading and late policies. You learn a lot of stuff that industry employers are looking for, so it's a valuable course."}
 				</div>
 			</div>
 		</div>

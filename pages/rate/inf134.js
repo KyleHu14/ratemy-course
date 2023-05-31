@@ -1,9 +1,9 @@
 import React from 'react'
 
 // Styles
-import home from "../../styles/components/RatingBackground.module.css";
-import section from "../../styles/components/SectionBox.module.css";
-import question from "../../styles/components/QuestionBox.module.css";
+import home from "../../styles/pages/course-rate-page/RatingBackground.module.css";
+import section from "../../styles/pages/course-rate-page/SectionBox.module.css";
+import question from "../../styles/pages/course-rate-page/QuestionBox.module.css";
 
 // Components
 import Navbar from '../../components/Navbar';
