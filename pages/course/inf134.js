@@ -3,6 +3,7 @@ import styles from "../../styles/pages/CoursePage.module.css";
 
 // Components
 import Navbar from "../../components/Navbar";
+import RatingBox from "@/components/RatingBox";
 
 // Nextjs
 import Image from "next/image";
@@ -109,6 +110,60 @@ const inf134 = () => {
 								width={423}
 								height={287}
 								alt="Average hours spent on course"
+							/>
+						</div>
+					</div>
+					{/* Ratings Section */}
+					<div className={styles.reviewSection}>
+						<div className={styles.reviewHeader}>
+							<div className={styles.reviewTitle}>
+								42 Anteater Ratings
+							</div>
+							<div className={styles.reviewHeaderRight}>
+								<Image
+									src="/course-page/filter-ratings.png"
+									width={108}
+									height={30}
+									alt="Average hours spent on course"
+								/>
+								<Image
+									src="/course-page/sort-ratings.png"
+									width={96}
+									height={30}
+									alt="Average hours spent on course"
+								/>
+							</div>
+						</div>
+						<div className={styles.reviewsContainer}>
+							<RatingBox 
+								name={"Petr Anteater"} 
+								reviewerInfo={"3rd year | Informatics | GPA: 3.2"} 
+								usefulRating={5.0} 
+								diffRating={5.0}
+							/>
+							<RatingBox 
+								name={"Petr Anteater"} 
+								reviewerInfo={"3rd year | Informatics | GPA: 3.2"} 
+								usefulRating={5.0} 
+								diffRating={5.0}
+							/>
+							<RatingBox 
+								name={"Petr Anteater"} 
+								reviewerInfo={"3rd year | Informatics | GPA: 3.2"} 
+								usefulRating={5.0} 
+								diffRating={5.0}
+							/>
+							<RatingBox 
+								name={"Petr Anteater"} 
+								reviewerInfo={"3rd year | Informatics | GPA: 3.2"} 
+								usefulRating={5.0} 
+								diffRating={5.0}
+							/>
+							<RatingBox 
+								name={"Petr Anteater"} 
+								reviewerInfo={"3rd year | Informatics | GPA: 3.2"} 
+								usefulRating={5.0} 
+								diffRating={5.0}
 							/>
 						</div>
 					</div>
