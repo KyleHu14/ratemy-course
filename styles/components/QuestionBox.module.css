@@ -1,0 +1,75 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    width: 1000px;
+    height: 180px;
+    border: 2px solid black;
+    color: #005dab;
+    padding-left: 1%;
+}
+
+
+.YesCheckbox {
+    margin-left: 3%;
+}
+
+.NoSpacing {
+    margin: 3%;
+}
+
+.dropdown {
+    margin-left: 3%;
+
+}
+
+.SecondSpacing {
+    margin: 3%;
+}
+
+.nameContainer {
+    width: 1000px;
+    display: flex;
+    padding-top: 3%;
+    padding-left: 2%;
+    display: inline-block;
+}
+
+.questionContainer {
+    width: 1000px;
+    display: flex;
+    padding-top: 3%;
+    padding-left: 2%;
+    display: inline-block;
+}
+
+.checkboxContainer {
+    width: 1000px;
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+
+}
+
+.checkboxs {
+    margin-bottom: 10px; /* Add vertical spacing between checkboxes and labels */
+
+}
+
+.numbersContainer {
+    width: 1000px;
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.label {
+    display: block; /* Display labels as block elements to position them underneath checkboxes */
+}
+
+.questionSpacing {
+    margin-left: 3%;
+}
