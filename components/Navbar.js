@@ -32,7 +32,7 @@ const Navbar = () => {
 					Course Ratings
 				</Link>
 				<div className={styles.linkDivider}>|</div>
-				<Link className={`${styles.navLink}`} href="/">
+				<Link className={`${styles.navLink}`} href="/recommendation">
 					Course Recommendations
 				</Link>
 			</div>

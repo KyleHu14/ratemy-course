@@ -1,0 +1,104 @@
+.coursePageTitle{
+	color: #005DAB;
+	font-size: 30px;
+
+	text-align: center;
+}
+
+.mainBody{
+	background-image: url(../../public/background-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-top: 5rem;
+
+	height: 100vh;
+}
+
+.recForm{
+	background-color: #FFFCFA;
+	margin-left: 20rem;
+	margin-right: 20rem;
+
+	padding: 1.3rem;
+	border-radius: 15px;
+
+	margin-top : 5rem;
+	
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+/* Dropdown container */
+.dropdown {
+	display: inline-block;
+	position: relative;
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	width: 100%;
+
+	border-radius: 10px;
+
+	margin-bottom: 1rem;
+
+}
+  
+/* Dropdown select style */
+.dropdown select {
+	appearance: none; /* Remove default select arrow */
+	padding: 0.8rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+	cursor: pointer;
+	padding-right: 2rem;
+	width: 100%;
+
+	border-radius: 10px;
+}
+
+/* Dropdown arrow style */
+.dropdown::after {
+	content: "\25BC"; /* Unicode for down arrow */
+	position: absolute;
+	top: 25%;
+	right: 10px;
+	/* transform: translateY(-50%); */
+	pointer-events: none; /* Prevent click on the arrow */
+}
+
+/* Dropdown option style */
+.dropdown option {
+	padding: 0.5rem;
+}
+
+.dNone{
+	display: none;
+}
+
+.searchInput{
+	/* Shadow */
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+	/* Borders */
+	border-radius: 10px;
+	border: solid 1px #edeff4;
+
+	/* Outline */
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+
+	/* Fonts */
+	font-size: 14px;
+
+	/* Positioning */
+	padding: 10px;
+
+	width: 350px;
+
+	/* Color */
+	background-color: white;
+
+	margin-bottom: 1rem;
+}
