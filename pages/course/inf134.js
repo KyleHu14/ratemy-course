@@ -7,6 +7,7 @@ import RatingBox from "@/components/RatingBox";
 
 // Nextjs
 import Image from "next/image";
+import Link from "next/link";
 
 const inf134 = () => {
 	return (
@@ -38,7 +39,9 @@ const inf134 = () => {
 							In4matx 134 - Project in User Interaction Software
 						</div>
 						<button className={styles.rateButton}>
-							Rate This Course
+							<Link className={styles.Link}href="/rate/inf134">
+								Rate This Course
+							</Link>
 						</button>
 					</div>
 
