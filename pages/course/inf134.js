@@ -36,7 +36,7 @@ const inf134 = () => {
 					{/* Title Section */}
 					<div className={styles.courseTitle}>
 						<div>
-							In4matx 134 - Project in User Interaction Software
+							IN4MATX 134 - Project in User Interaction Software
 						</div>
 						<button className={styles.rateButton}>
 							<Link className={styles.Link}href="/rate/inf134">
