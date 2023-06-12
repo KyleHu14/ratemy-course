@@ -74,7 +74,7 @@
     margin-left: 3%;
 }
 
-.radioButtons {
+.usefulButtons {
     padding-top: 3%;
     width: 1000px;
     display: flex;
@@ -84,11 +84,28 @@
     margin-bottom: 10px;
 }
 
-.radioButtons label {
+.usefulButtons label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.difficultButtons { 
+    padding-top: 3%;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 10px;
+}
+
+.difficultButtons label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
 }
 
 .additionalComment {
@@ -119,3 +136,18 @@
 	text-decoration: none;
 }
 
+.selectContainer {
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+
+.bubble {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -104,7 +104,7 @@ const inf134 = () => {
           <div className={section.padding}></div>
           <div className={question.main}>
             How useful was this course?
-            <div className = {question.radioButtons}>
+            <div className = {question.usefulButtons}>
               <label>
                 <input type="radio" name="option" value="1"/>1
                 <span>Irrelevant</span>
@@ -130,7 +130,7 @@ const inf134 = () => {
           <div className={section.padding}></div>
           <div className={question.main}>
             How difficult was this course?
-            <div className = {question.radioButtons}>
+            <div className = {question.difficultButtons}>
               <label>
                 <input type="radio" name="option" value="1"/>1
                 <span>Easy</span>
@@ -166,6 +166,16 @@ const inf134 = () => {
           <div className={section.padding}></div>
           <div className={question.main}>
             Choose up to 3 that apply to this course
+            <div className={question.selectContainer}>
+              <div className={question.bubble}>Easy GE</div>
+              <div className={question.bubble}>Easy A</div>
+              <div className={question.bubble}>Group Project(s)</div>
+              <div className={question.bubble}>Based on Interests</div>
+              <div className={question.bubble}>Online Class</div>
+              <div className={question.bubble}>Low Time Commitment</div>
+              <div className={question.bubble}>Resume Builder</div>
+              <div className={question.bubble}>Engaging</div>
+            </div>
           </div>
           <div className={section.padding}></div>
           <div className={question.main}>
