@@ -125,14 +125,14 @@ const inf134 = () => {
 							<div className={styles.reviewHeaderRight}>
 								<Image
 									src="/course-page/filter-ratings.png"
-									width={108}
-									height={30}
+									width={128}
+									height={50}
 									alt="Average hours spent on course"
 								/>
 								<Image
 									src="/course-page/sort-ratings.png"
-									width={96}
-									height={30}
+									width={116}
+									height={50}
 									alt="Average hours spent on course"
 								/>
 							</div>
