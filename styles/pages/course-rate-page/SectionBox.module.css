@@ -21,6 +21,10 @@
     padding-top: 1%;
 }
 
+.largePadding {
+    padding-top: 5%;
+}
+
 .courseText {
     font-size: 25px;
     text-align: center;

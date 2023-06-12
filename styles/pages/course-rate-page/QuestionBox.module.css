@@ -73,3 +73,49 @@
 .questionSpacing {
     margin-left: 3%;
 }
+
+.radioButtons {
+    padding-top: 3%;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 10px;
+}
+
+.radioButtons label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.additionalComment {
+    padding-top: 3%;
+    width: 970px;
+}
+
+.Link{
+	text-decoration: none;
+	color: black;
+}
+
+.submitButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    background-color: #0F90C7;
+	border : none;
+	border-radius: 10px;
+	padding: 0.5rem 3rem;
+	font-size: 15px;
+	
+	/* Shadow */
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
+	text-decoration: none;
+}
+

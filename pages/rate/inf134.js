@@ -8,6 +8,10 @@ import question from "../../styles/pages/course-rate-page/QuestionBox.module.css
 // Components
 import Navbar from '../../components/Navbar';
 
+// Nextjs
+import Link from "next/link";
+
+
 const inf134 = () => {
   return (
     <>
@@ -23,10 +27,10 @@ const inf134 = () => {
           <div className={question.main}>
             Would you like to remain anonymous?
             <div className = {question.nameContainer}>
-              <label>Yes</label> 
-              <input className = {question.YesCheckbox} type="checkbox"></input>
+            <label>Yes</label> 
+              <input className = {question.YesCheckbox} type="radio"/>
               <label className = {question.NoSpacing}>No</label> 
-              <input className = {question.checkbox} type="checkbox"></input>
+              <input className = {question.checkbox} type="radio"/>
             </div>
           </div>
           <div className={section.padding}></div>
@@ -49,8 +53,8 @@ const inf134 = () => {
                 <option value="2nd">2nd</option>
                 <option value="3rd">3rd</option>
                 <option value="4th">4th</option>
-                <option value="5th">4th</option>
-                <option value="Other">4th</option>
+                <option value="5th">5th</option>
+                <option value="Other">Other</option>
 
               </select>
             </div>
@@ -100,19 +104,63 @@ const inf134 = () => {
           <div className={section.padding}></div>
           <div className={question.main}>
             How useful was this course?
+            <div className = {question.radioButtons}>
+              <label>
+                <input type="radio" name="option" value="1"/>1
+                <span>Irrelevant</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="2"/>2
+                <span>Not for me</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="3"/>3
+                <span>Average</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="4"/>4
+                <span>Worth it</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="5"/>5
+                <span>Life-changing</span>
+              </label>
+            </div>
           </div>
           <div className={section.padding}></div>
           <div className={question.main}>
             How difficult was this course?
+            <div className = {question.radioButtons}>
+              <label>
+                <input type="radio" name="option" value="1"/>1
+                <span>Easy</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="2"/>2
+                <span>Light work</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="3"/>3
+                <span>Manageable</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="4"/>4
+                <span>Tough</span>
+              </label>
+              <label>
+                <input type="radio" name="option" value="5"/>5
+                <span>Felt Impossible</span>
+              </label>
+            </div>
           </div>
           <div className={section.padding}></div>
           <div className={question.main}>
             Would you recommend this course?
             <div className = {question.nameContainer}>
               <label>Yes</label> 
-              <input className = {question.YesCheckbox} type="checkbox"></input>
+              <input className = {question.YesCheckbox} type="radio"/>
               <label className = {question.NoSpacing}>No</label> 
-              <input className = {question.checkbox} type="checkbox"></input>
+              <input className = {question.checkbox} type="radio"/>
             </div>
           </div>
           <div className={section.padding}></div>
@@ -122,7 +170,15 @@ const inf134 = () => {
           <div className={section.padding}></div>
           <div className={question.main}>
             Additional comments?
+            <textarea className={question.additionalComment} rows="4" cols="50"></textarea>
           </div>
+          <div className={section.largePadding}></div>
+            <button className={question.submitButton}>
+                <Link className={question.Link}href="/course/inf134">
+                  Submit
+                </Link>
+				    </button>
+          <div className={section.largePadding}></div>
         </div>
       </div>
     </>
