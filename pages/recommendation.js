@@ -56,9 +56,16 @@ export default function Recommendation() {
 					<div className={styles.dropdown}>
 						<select>
 							<option hidden value="">Filter For</option>
-							<option value="">option1</option>
-							<option value="">option2</option>
-							<option value="">option3</option>
+							<option value="">Easy GEs</option>
+							<option value="">Online Class</option>
+							<option value="">Easy A</option>
+							<option value="">Low Time Commitment</option>
+							<option value="">Group Projects</option>
+							<option value="">Resume Builder</option>
+							<option value="">Interesting</option>
+							<option value="">Usefulness</option>
+							<option value="">Difficulty</option>
+
 						</select>
 					</div>
 				</div>
